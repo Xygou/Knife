@@ -1,0 +1,185 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.wrapper {
+  padding: 69px 0;
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container{
+	max-width: 1395px;
+	margin: 0 auto;
+}
+
+.title {
+  margin-top: 40px;
+  margin-left: auto;
+  font-size: 40px;
+  max-width: 640px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.socials {
+  display: block;
+  height: 50px;
+  width: 350px;
+  margin-left: auto;
+  position: relative;
+}
+
+.socials_item {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.youtube {
+  background-image: url(./img/Youtube.svg);
+  right: 230px;
+}
+
+.instagram {
+  background-image: url(./img/Instagram.svg);
+  right: 115px;;
+}
+
+.facebook {
+  background-image: url(./img/Facebook.svg);
+  right: 0;
+}
+
+.address {
+  padding-top: 50px;
+  margin-left: auto;
+  max-width: 440px;
+  font-size: 38px;
+  text-align: right;
+  margin-bottom: 370px;
+}
+
+.location {
+  margin-bottom: 15px;
+}
+
+.text {
+  max-width: 650px;
+  font-size: 24px;
+}
+
+
+
+@media (max-width: 1395px) {
+  .container {
+    max-width: 1195px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1195px) {
+
+  .address,
+  .title,
+  .socials {
+    text-align: center;
+  }
+  
+  .socials_item {
+     top: 480px;
+  }
+
+  .youtube {
+    left: 50px;
+  }
+
+  .instagram {
+    left: 150px;
+  }
+
+  .facebook {
+    left: 250px;
+  }
+
+  .text,
+  .title {
+    margin: 0 auto;
+  }
+ 
+}
+
+
+
+
+
+
