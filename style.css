@@ -178,6 +178,28 @@ body {
  
 }
 
+@media (max-width: 420px) {
+  .youtube {
+    left: 25px;
+  }
+
+  .instagram {
+    left: 125px;
+  }
+
+  .facebook {
+    left: 225px;
+  }
+
+  .socials_item {
+    top: 380px;
+ }
+
+ .address {
+  margin-bottom: 250px;
+ }
+}
+
 
 
 
